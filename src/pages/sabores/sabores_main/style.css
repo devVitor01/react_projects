@@ -1,0 +1,42 @@
+.sabores-main{
+    width: 100%;
+    padding: 100px 0;
+}
+
+.sabores-main-container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.box-container{
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    justify-content: center;
+    margin-top: 30px;
+}
+
+.boxer{
+    width: 25%;
+    box-shadow: 1px 1px 10px 0.5px #ccc;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    min-width: 188px;
+    min-height: 270px;
+    padding: 2%;
+}
+
+.boxer img{
+    width: 80%;
+}
+
+@media screen and (max-width: 768px) {
+    .boxer{
+        width: 80%;
+    }
+}

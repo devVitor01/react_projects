@@ -1,0 +1,38 @@
+.sobre-main .largura-limitada{
+    margin: 100px auto;
+    text-align: center;
+}
+
+.sobre-main .largura-limitada h1{
+    font-size: 32px;
+}
+
+.sobre-main .largura-limitada h3{
+    font-style: italic;
+    margin-bottom: 28px;
+}
+
+.sobre-main .largura-limitada h3{
+    padding: 7px;
+}
+
+.sobre-galeria{
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.sobre-galeria .sobre-box{
+    width: 50%;
+}
+
+.sobre-galeria .sobre-box img{
+    width: 100%;
+    height: 100%;
+}
+
+@media screen and (max-width: 768px){
+    .sobre-galeria .sobre-box{
+        width: 100%;
+    }
+}

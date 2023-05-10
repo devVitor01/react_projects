@@ -1,0 +1,9 @@
+.sabores-page{
+    margin-top: 86.36px;
+}
+
+@media screen and (max-width: 436px){
+    .sabores-page{
+        margin-top: 103.64px;
+    }
+}

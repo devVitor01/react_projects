@@ -1,0 +1,46 @@
+.sobre-banner{
+    margin-top: 86.36px;
+    width: 100%;
+    height: 65vh;
+    background-image: url(../../../assets/banner-sobre.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.sobre-banner h1{
+    color: white;
+    font-size: 85px;
+    text-shadow: 0 3.5px 3.5px #000;
+}
+
+@media screen and (max-width: 768px){
+    .sobre-banner h1{
+        font-size: 70px;
+    }
+}
+
+@media screen and (max-width: 638px){
+    .sobre-banner h1{
+        text-align: center;
+    }
+}
+
+@media screen and (max-width: 436px){
+    .sobre-banner{
+        margin-top: 108.64px;
+    }
+
+    .sobre-banner h1{
+        font-size: 60px;
+    }
+}
+
+@media screen and (max-width: 375px){
+    .sobre-banner h1{
+        font-size: 50px;
+    }
+}
